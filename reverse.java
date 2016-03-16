@@ -7,7 +7,7 @@ public class reverseString {
         System.out.println("Enter the input string");
         try
         {
-            BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+          11 BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
             input = br.readLine();
             char[] try1= input.toCharArray();
             for (int i=try1.length-1;i>=0;i--)
